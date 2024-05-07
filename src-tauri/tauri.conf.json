@@ -49,7 +49,7 @@
       "active": true,
       "dialog": false,
       "endpoints": [
-        "https://3x5tfk87-3000.euw.devtunnels.ms/tauriUpdater2/{{target}}/{{current_version}}"
+        "https://3x5tfk87-3000.euw.devtunnels.ms/Clear_Template_Tauri/{{target}}/{{current_version}}"
       ],
       "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IEVGNDFDN0FGRTNENkI5QTEKUldTaHVkYmpyOGRCN3hzWklBMm05a0NyZDFvN2dzRGZUMmI3b2hOMWFrS3M3VEMyeDBJaURRVVgK"
     },
