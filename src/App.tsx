@@ -75,7 +75,7 @@ function App() {
   return (
     <div className="container">
       {contextHolder}
-      <h1>Welcome to Tauri!</h1>
+      <h1>Welcome to Tauri! Clear Tauri!</h1>
     </div>
   );
 }
