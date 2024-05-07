@@ -5,6 +5,7 @@
   )]
   
   use serde::Serialize;
+  use std::sync::Mutex;
   use tauri::{
     // state is used in Linux
     self, Manager
