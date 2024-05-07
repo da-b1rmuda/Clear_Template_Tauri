@@ -9,7 +9,7 @@
     // state is used in Linux
     self, Manager
   };
-  use tauri_plugin_store;
+  use tauri_plugin_store::StoreBuilder;
   use tauri_plugin_window_state;
   use window_shadows::set_shadow;
   
