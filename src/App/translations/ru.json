@@ -1,0 +1,6 @@
+{
+  "Update v{{ v }} available": "Доступно обновление до версии {{ v }}",
+  "Installing update v{{ v }}": "Установка обновления до версии {{ v }}",
+  "Will relaunch afterwards": "После этого произойдет перезапуск",
+  "Install update and relaunch": "Установить обновление и перезапустить"
+}

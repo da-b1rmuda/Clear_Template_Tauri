@@ -1,0 +1,6 @@
+{
+  "Update v{{ v }} available": "Update v{{ v }} available",
+  "Installing update v{{ v }}": "Installing update v{{ v }}",
+  "Will relaunch afterwards": "Will relaunch afterwards",
+  "Install update and relaunch": "Install update and relaunch"
+}
