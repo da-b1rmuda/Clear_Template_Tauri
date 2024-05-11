@@ -11,6 +11,7 @@ const RUNNING_IN_TAURI = window.__TAURI__ !== undefined
 const Updater = () => {
 	const { t, i18n } = useTranslation()
 	const [api, contextHolder] = notification.useNotification()
+	console.log()
 	// Updater integration
 	//TODO: add version types
 	function startInstall(newVersion: any) {
@@ -34,9 +35,6 @@ const Updater = () => {
 		// update checker
 		useEffect(() => {
 			checkUpdate().then(({ shouldUpdate, manifest }) => {
-				console.log(shouldUpdate)
-				console.log(manifest)
-
 				if (shouldUpdate) {
 					const { version: newVersion, body: releaseNotes } = manifest ?? {}
 					notification.open({
